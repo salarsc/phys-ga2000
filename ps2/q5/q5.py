@@ -17,7 +17,7 @@ def modified_quadratic_equation_solver(coef_a, coef_b, coef_c):
     solution_minus = (2*coef_c) / ( -coef_b + np.sqrt(coef_b**2 - 4*coef_a*coef_c) )
     return solution_minus, solution_plus
 
-print("part c solouions:",modified_quadratic_equation_solver(0.001, 1000, 0.001))
+print("part b solouions:",modified_quadratic_equation_solver(0.001, 1000, 0.001))
 
 # Part c: Combining both methods for better accuracy in both ranges
 def quadratic(coef_a, coef_b, coef_c):
